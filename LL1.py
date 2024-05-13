@@ -76,7 +76,7 @@ def print_tree(node, node_list, info = False):
     #print(dot)
 
     graph = graphviz.Source(dot, format= 'png')
-    graph.render("archivos/tree.png", view=True)
+    graph.render("tree.png", view=True)
 
 def print_tree_recursive(node):
     global dot
@@ -241,7 +241,7 @@ def principal(tokens):
 
 
 if __name__ == "__main__":
-    fp = open("ProyectoParcial\practica.txt")
+    fp = open("practica.txt")
     tokens = get_tokens(fp)
     tokens.append([ '$', None, None ])
     principal(tokens)

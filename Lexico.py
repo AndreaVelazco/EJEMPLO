@@ -108,6 +108,6 @@ def get_tokens(fp):
 
 
 if __name__ == "__main__":
-    fp = open("ProyectoParcial\practica.txt")
+    fp = open("practica.txt")
     tokens = get_tokens(fp)
     #print(tokens)
